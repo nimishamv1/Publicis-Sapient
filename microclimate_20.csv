@@ -1,0 +1,21 @@
+device_id,received_at,sensorlocation,latlong,minimumwinddirection,averagewinddirection,maximumwinddirection,minimumwindspeed,averagewindspeed,gustwindspeed,airtemperature,relativehumidity,atmosphericpressure,pm25,pm10,noise
+ICTMicroclimate-09,2025-11-16T02:17:20+00:00,SkyFarm (Jeff's Shed). Rooftop - Melbourne Conference & Exhibition Centre (MCEC),"{'lon': 144.9521696, 'lat': -37.8223306}",0.0,308.0,359.0,0.0,1.9,6.6,15.6,71.6,1000.1,1.0,1.0,55.6
+ICTMicroclimate-03,2025-11-16T02:14:29+00:00,CH1 rooftop,"{'lon': 144.96728, 'lat': -37.8140348}",0.0,356.0,350.0,0.0,0.8,1.9,15.7,79.0,995.7,2.0,4.0,61.4
+ICTMicroclimate-09,2025-11-16T01:17:12+00:00,SkyFarm (Jeff's Shed). Rooftop - Melbourne Conference & Exhibition Centre (MCEC),"{'lon': 144.9521696, 'lat': -37.8223306}",0.0,345.0,359.0,0.0,0.7,3.5,15.4,74.5,1000.7,0.0,1.0,51.6
+ICTMicroclimate-02,2025-11-16T01:20:52+00:00,101 Collins St L11 Rooftop,"{'lon': 144.9702991, 'lat': -37.814604}",99.0,113.0,129.0,2.8,3.5,5.0,15.1,84.9,997.0,1.0,3.0,87.8
+ICTMicroclimate-09,2025-11-16T01:02:10+00:00,SkyFarm (Jeff's Shed). Rooftop - Melbourne Conference & Exhibition Centre (MCEC),"{'lon': 144.9521696, 'lat': -37.8223306}",0.0,281.0,359.0,0.0,1.1,3.4,15.0,74.7,1000.7,2.0,2.0,52.5
+ICTMicroclimate-08,2025-11-16T00:35:14+00:00,Swanston St - Tram Stop 13 adjacent Federation Sq & Flinders St Station,"{'lon': 144.9678474, 'lat': -37.8184515}",0.0,268.0,359.0,0.0,1.8,4.1,17.3,58.9,1001.9,15.0,15.0,71.3
+ICTMicroclimate-02,2025-11-16T00:35:45+00:00,101 Collins St L11 Rooftop,"{'lon': 144.9702991, 'lat': -37.814604}",87.0,121.0,163.0,0.6,2.1,3.2,16.9,65.0,996.9,2.0,4.0,70.7
+ICTMicroclimate-06,2025-11-16T00:48:42+00:00,Tram Stop 7B - Melbourne Tennis Centre Precinct - Rod Laver Arena,"{'lon': 144.9787211, 'lat': -37.8194993}",0.0,155.0,358.0,0.0,1.1,3.8,16.8,67.3,1001.9,13.0,15.0,75.7
+ICTMicroclimate-05,2025-11-16T01:27:26+00:00,Enterprize Park - Pole ID: COM1667,"{'lon': 144.9591192, 'lat': -37.8204083}",0.0,352.0,314.0,0.0,0.1,0.5,15.5,87.9,1001.4,3.0,5.0,74.6
+ICTMicroclimate-03,2025-11-16T01:14:21+00:00,CH1 rooftop,"{'lon': 144.96728, 'lat': -37.8140348}",192.0,189.0,211.0,1.9,2.1,2.9,15.4,82.0,996.1,1.0,3.0,61.5
+ICTMicroclimate-03,2025-11-16T00:59:19+00:00,CH1 rooftop,"{'lon': 144.96728, 'lat': -37.8140348}",0.0,208.0,315.0,0.0,0.7,2.1,15.2,79.8,996.1,6.0,9.0,61.6
+ICTMicroclimate-08,2025-11-16T02:20:26+00:00,Swanston St - Tram Stop 13 adjacent Federation Sq & Flinders St Station,"{'lon': 144.9678474, 'lat': -37.8184515}",0.0,246.0,353.0,0.0,0.8,3.0,16.6,72.1,1001.3,3.0,3.0,78.5
+ICTMicroclimate-05,2025-11-16T02:27:36+00:00,Enterprize Park - Pole ID: COM1667,"{'lon': 144.9591192, 'lat': -37.8204083}",0.0,152.0,90.0,0.0,0.3,0.4,16.4,80.0,1000.8,1.0,3.0,70.1
+ICTMicroclimate-08,2025-11-16T01:50:22+00:00,Swanston St - Tram Stop 13 adjacent Federation Sq & Flinders St Station,"{'lon': 144.9678474, 'lat': -37.8184515}",0.0,247.0,358.0,0.0,1.7,5.0,15.8,73.0,1002.1,15.0,15.0,73.3
+ICTMicroclimate-06,2025-11-16T01:48:50+00:00,Tram Stop 7B - Melbourne Tennis Centre Precinct - Rod Laver Arena,"{'lon': 144.9787211, 'lat': -37.8194993}",0.0,247.0,359.0,0.0,1.0,4.8,16.4,72.2,1001.7,13.0,15.0,64.5
+ICTMicroclimate-05,2025-11-16T01:57:30+00:00,Enterprize Park - Pole ID: COM1667,"{'lon': 144.9591192, 'lat': -37.8204083}",0.0,18.0,256.0,0.0,0.1,0.8,14.7,87.8,1001.5,2.0,4.0,73.8
+ICTMicroclimate-03,2025-11-16T01:59:27+00:00,CH1 rooftop,"{'lon': 144.96728, 'lat': -37.8140348}",0.0,328.0,314.0,0.0,0.5,0.9,15.6,82.0,996.0,1.0,3.0,61.5
+ICTMicroclimate-01,2025-11-16T01:38:24+00:00,Birrarung Marr Park - Pole 1131,"{'lon': 144.9716404, 'lat': -37.8185931}",,15.0,,,0.2,,16.4,76.0,1000.700012,3.0,6.0,57.799999
+ICTMicroclimate-09,2025-11-16T01:32:15+00:00,SkyFarm (Jeff's Shed). Rooftop - Melbourne Conference & Exhibition Centre (MCEC),"{'lon': 144.9521696, 'lat': -37.8223306}",0.0,254.0,359.0,0.0,1.8,4.2,15.3,78.7,1000.7,1.0,2.0,51.1
+ICTMicroclimate-08,2025-11-16T01:35:20+00:00,Swanston St - Tram Stop 13 adjacent Federation Sq & Flinders St Station,"{'lon': 144.9678474, 'lat': -37.8184515}",0.0,229.0,353.0,0.0,2.0,4.0,15.9,74.0,1001.7,15.0,15.0,83.0
