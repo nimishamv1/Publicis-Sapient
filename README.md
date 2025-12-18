@@ -1,8 +1,5 @@
-# Overall Architecture
-
-
-
-![ArchDiagram](/ArchDiagram.svg)
+# Current Architecture
+![ArchDiagram](/OverallArch.svg)
 
 # Prerequisites
 
@@ -13,3 +10,6 @@ PostgreSQL: Cloud SQL from GCP
 Tools: git, pip, psql
 
 Network: Access to the microclimate API (public) --https://data.melbourne.vic.gov.au/explore/dataset/microclimate-sensors-data/api/
+
+# Future Enhancement
+![ArchDiagram](/ArchDiagram.svg)

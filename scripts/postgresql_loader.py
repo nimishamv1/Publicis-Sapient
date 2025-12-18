@@ -1,9 +1,10 @@
 import pandas as pd
+import sys
 from sqlalchemy import create_engine
 
 # Database connection parameters
 db_user = 'weatherapi_login'
-db_password = "Sapient"
+db_password = sys.argv[1]  # Get password from command line argument
 db_host = '34.126.198.60'
 db_port = '5432'
 db_name = 'postgres'

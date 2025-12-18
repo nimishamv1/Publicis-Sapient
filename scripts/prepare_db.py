@@ -1,4 +1,5 @@
 import psycopg2
+import sys
 
 def create_weather_table():
     try:
@@ -6,7 +7,7 @@ def create_weather_table():
         connection = psycopg2.connect(
             dbname="postgres",
             user="weatherapi_login",
-            password="Sapient",
+            password=sys.argv[1],
             host="34.126.198.60",
             port="5432"
         )
@@ -34,7 +35,7 @@ def create_weather_table():
             );
             CREATE UNIQUE INDEX IF NOT EXISTS ux_weather_location_timestamp
 ON weather_data (sensorlocation, received_at);
-        '''
+               '''
 
         # Execute the query
         cursor.execute(create_table_query)
