@@ -2,13 +2,15 @@ import requests
 import pandas as pd
 from typing import Any, Dict, List
 
+
+
 URL = (
-    "https://data.melbourne.vic.gov.au/api/explore/v2.1/catalog/datasets/microclimate-sensors-data/records?limit=20"
+    "https://data.melbourne.vic.gov.au/api/explore/v2.1/catalog/datasets/microclimate-sensors-data/records"
 )
 
 
-def fetch(url: str = URL, timeout: int = 10) -> Dict[str, Any]:
-    resp = requests.get(url, timeout=timeout)
+def fetch(url: str = URL, limit=100, timeout: int = 10) -> Dict[str, Any]:
+    resp = requests.get(url, timeout=timeout , params={"limit": limit})
     resp.raise_for_status()
     return resp.json()
 
