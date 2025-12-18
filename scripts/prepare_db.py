@@ -4,10 +4,10 @@ def create_weather_table():
     try:
         # Connect to your PostgreSQL database
         connection = psycopg2.connect(
-            dbname="your_db_name",
-            user="your_username",
-            password="your_password",
-            host="localhost",
+            dbname="postgres",
+            user="weatherapi_login",
+            password="Sapient",
+            host="34.126.198.60",
             port="5432"
         )
         cursor = connection.cursor()
@@ -15,13 +15,25 @@ def create_weather_table():
         # Create table query
         create_table_query = '''
         CREATE TABLE weather_data (
-            id SERIAL PRIMARY KEY,
-            date DATE NOT NULL,
-            temperature FLOAT NOT NULL,
-            humidity FLOAT NOT NULL,
-            precipitation FLOAT,
-            wind_speed FLOAT
-        );
+            device_id VARCHAR(255) NOT NULL,
+            received_at TIMESTAMP NOT NULL,
+            sensorlocation VARCHAR(255) NOT NULL,
+            latlong VARCHAR(255),
+            minimumwinddirection DOUBLE PRECISION,
+            averagewinddirection DOUBLE PRECISION,
+            maximumwinddirection DOUBLE PRECISION,
+            minimumwindspeed	DOUBLE PRECISION,
+            averagewindspeed	DOUBLE PRECISION,
+            gustwindspeed	DOUBLE PRECISION,
+            airtemperature DOUBLE PRECISION,
+            relativehumidity DOUBLE PRECISION,
+            atmosphericpressure	DOUBLE PRECISION,
+            pm25	DOUBLE PRECISION,
+            pm10	DOUBLE PRECISION,
+            noise	DOUBLE PRECISION
+            );
+            CREATE UNIQUE INDEX IF NOT EXISTS ux_weather_location_timestamp
+ON weather_data (sensorlocation, received_at);
         '''
 
         # Execute the query
