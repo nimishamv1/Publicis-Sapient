@@ -3,7 +3,7 @@ Below is a simple coding exercise designed to check basic Python and SQL knowled
 
 # Scenario
 Bloomeroo, a Melbourne-based flower business, is looking to optimise its flower growth yields. They want to use weather data to find the best spots in the city for growing.
-The datasource to be used is publicly available from this microclimate sensor (https://data.melbourne.vic.gov.au/explore/dataset/microclimate-sensors-data/api/)data API.
+The datasource to be used is publicly available from this microclimate sensor(https://data.melbourne.vic.gov.au/explore/dataset/microclimate-sensors-data/api/) data API.
 As their dataengineer, your task is to write a command-line Python program that reads data from the weather API and loads it into a Postgres database for analysis. The analyst team needs at least 1000 records to evaluate temperature and humidity patterns by location and time.
 
 
