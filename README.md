@@ -26,7 +26,7 @@ Network: Access to the microclimate API (public) --https://data.melbourne.vic.go
 3) Prepare the database. Since I have used Cloud SQL (Postgresql) in Google cloud. Go to console.google.com login and create instance of Cloud SQL for Postgresql and in connections add IP address of local machine and get the connectivity.
 4) Create user:"weatherapi_login" in Cloud SQL instance.
 5) Add connection details in the .py files which connectes to Cloud Postgresql.
-6) Prepare databse : 
+6) Prepare database : 
           Execute in local terminal python scripts/prepare_db.py <Password>
 7) Load .csv file to Postgresql table :
           Execute python scripts/postgresql_loader.py <Password>
