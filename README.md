@@ -47,7 +47,7 @@ Data Analyst Team can use weather_data table and use query [scripts/sql_query_an
 
 # Future Enhancement
 
-When this tranforms into a project , we can have a below components enahcning this into a robust Weather data extraction framework with :
+When this tranforms into a project , we can have a below components enhancing this into a robust Weather data extraction framework with :
  - Google Kubernetes engine running the python code or a Google Container Engine.
  - Pushing csv files to a Cloud Storage Landing Zone
  - Creating Staging , Fact/Dimension tables and Target in Google Big Query 
