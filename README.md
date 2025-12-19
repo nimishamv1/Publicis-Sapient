@@ -8,6 +8,15 @@ As their dataengineer, your task is to write a command-line Python program that 
 
 
 # Current Architecture
+
+To acheive the scenario of  Weather data extraction below is the architecture:
+ - Locally run python code in visual studio code.
+ - Extracting data to csv file
+ - Connect to Google Cloud and create Postgresql instance 
+ - Using Python loader code load the weather_data table
+ - Cleanse the data with data quality rules
+ - And ready for analyst team to use
+
 ![ArchDiagram](/OverallArch.svg)
 
 # Prerequisites
@@ -22,11 +31,13 @@ Network: Access to the microclimate API (public) [URL](https://data.melbourne.vi
 
 # Steps
 1) Create repository in github and clone to local visual studio code.
+2) Prepare [requirements.txt](/requirements.txt) with all python libraries  needed for the scripts to run.
+       execute `python -m pip install -r requirements.txt`
 2) Run `python scripts/fetch_microclimate.py` and load the data to (microclimate_20.csv) file
 3) Prepare the database. Since I have used Cloud SQL (Postgresql) in Google cloud. Go to console.google.com login and create instance of Cloud SQL for Postgresql and in connections add IP address of local machine and get the connectivity.
 4) Create user : "weatherapi_login" in Cloud SQL instance.
 5) Add connection details in the .py files which connectes to Cloud Postgresql.
-6) Prepare databse : 
+6) Prepare database : 
           Execute in local terminal `python scripts/prepare_db.py <Password>`
 7) Load .csv file to Postgresql table :
           Execute `python scripts/postgresql_loader.py <Password>`
